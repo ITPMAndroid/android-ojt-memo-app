@@ -287,7 +287,7 @@ public class MainActivity extends AppCompatActivity
             navFavoriteView.setBackgroundResource(R.drawable.shape_item_selected);
             navFavoriteImg.setImageResource(R.mipmap.ic_nav_favorite_on);
             navFavoriteText.setTextColor(Color.WHITE);
-            deleteButton.setImageResource(R.mipmap.ic_nav_delete_off);
+            deleteButton.setImageResource(R.mipmap.ic_nav_delete_on);
             // タイトル変更
             getSupportActionBar().setTitle(getString(R.string.favorite));
         }
@@ -295,7 +295,7 @@ public class MainActivity extends AppCompatActivity
             showGarbageBoxOptionsMenu();
             editButton.hide();
             navDeleteView.setBackgroundResource(R.drawable.shape_item_selected);
-            navDeleteImg.setImageResource(R.mipmap.ic_nav_delete_off);
+            navDeleteImg.setImageResource(R.mipmap.ic_nav_delete_on);
             navDeleteText.setTextColor(Color.WHITE);
             deleteButton.setImageResource(R.mipmap.ic_restore);
             // タイトル変更
@@ -307,7 +307,7 @@ public class MainActivity extends AppCompatActivity
             navAllMemoView.setBackgroundResource(R.drawable.shape_item_selected);
             navAllMemoImg.setImageResource(R.mipmap.ic_nav_report_on);
             navAllMemoText.setTextColor(Color.WHITE);
-            deleteButton.setImageResource(R.mipmap.ic_nav_delete_off);
+            deleteButton.setImageResource(R.mipmap.ic_nav_delete_on);
             // タイトル変更
             getSupportActionBar().setTitle(getString(R.string.all_memo));
         }
