@@ -22,7 +22,7 @@
         android:id="@+id/action_garbage_box"
         android:orderInCategory="100"
         android:title="@string/empty_garbage_box"
-        android:icon="@mipmap/ic_nav_delete_off"
+        android:icon="@mipmap/ic_nav_delete_on"
         android:visible="false"
         app:showAsAction="always"/>
 
