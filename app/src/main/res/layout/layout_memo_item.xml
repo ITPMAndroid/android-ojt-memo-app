@@ -26,7 +26,7 @@
             android:layout_gravity="center_vertical"
             android:paddingEnd="16dp"
             android:paddingStart="13dp"
-            android:src="@mipmap/ic_nav_delete_on"/>
+            android:src="@mipmap/ic_nav_delete_off"/>
 
     </LinearLayout>
 
